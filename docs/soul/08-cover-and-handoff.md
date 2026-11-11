@@ -104,6 +104,8 @@ from this template (no command generates it). Exactly three parts:
 #channeltag #topic #topic
 ```
 
+- **This channel writes the description in German**, YouTube Shorts first. A series
+  part carries its part number in the title line ("…, Teil 2"), as Enigma did.
 - **The first line is the only thing shown before "more"**, and on YouTube it becomes
   the **title**, capped at 100 characters. Cut the sentence, never truncate it.
 - The two note lines are chosen as **mechanism + evidence**: those are the two things
@@ -180,3 +182,14 @@ The kit does not publish. You upload by hand; these lessons were paid for:
 - Set the cover explicitly; otherwise the platform picks a frame with captions.
 - **Record the link and the visibility** in the brief's "Posted" section. A later
   reader cannot tell a private link from a public one.
+
+### This channel's schedule [default, user's choice 2026-11-11]
+
+Silicon Matrix Stories posts **Monday and Thursday at 18:00** (German time), with
+**Saturday as a bonus slot**. The owner uploads or schedules by hand in YouTube Studio;
+the kit stops at the files in `out/<id>/` and never schedules anything itself.
+
+- **Series parts go out in order**, part N+1 only once part N is public, so a viewer
+  who finds part 2 can always go back to part 1.
+- A finished video whose upload is not confirmed is not "posted": its brief's "Posted"
+  section stays empty until the owner gives the link.

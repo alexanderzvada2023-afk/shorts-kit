@@ -133,6 +133,8 @@ and ears.
 - [ ] Strong words: count matches the channel threshold (default 0), each one is
       an exclamation at a number or situation, never at a person (§1b)
 - [ ] Ends on the turn, then a share line tied to the content, then 3–4 s hold
+      (a series part: the turn, then the cliffhanger to the next part, §2)
+- [ ] The first spoken sentence is the strongest sentence of the script (§2)
 
 **Voice**
 - [ ] The whole TTS file was listened to end to end, and checked for loops and
@@ -184,3 +186,13 @@ not been adapted to your channel yet (`sk-pipeline` checks this at step 0).
 
 | date | rule (§) | old | new | why |
 | --- | --- | --- | --- | --- |
+| 2026-11-11 | §1 voice | serious, dry explainer | positive, inspiring, carried by checked facts; German, for tech-minded teens and adults; narrator figure Bit | user's choice: setup for Silicon Matrix Stories |
+| 2026-11-11 | `targetDurationSeconds` (§3) | 60–90 s | 40–55 s | user's choice: 40–55 s shorts, longer stories as a series |
+| 2026-11-11 | §2 series | (none) | a story longer than 55 s becomes parts; each part pays off its own question and ends on a cliffhanger instead of the share line | user's choice: multi-part videos with a cliffhanger |
+| 2026-11-11 | §2 hook | question plus a number in the first 3 s | the first spoken sentence is the strongest sentence of the script | channel stats 2026-11-03: 2,196 views, 2.2 h watch time, ~3.6 s per view |
+| 2026-11-11 | `bannedPhrases`, `intensifiers`, `hookOnlyPhrases`, `pronounOpeners`, `sourceOnlyEndings`, `universalWords` (§3b, §3c, §9) | English lists | German lists added in front, English kept | user's choice: German channel; English lists never match German scripts, English loanwords still appear |
+| 2026-11-11 | `footageFillers`, `footageCtaPhrases`, `whisperHallucinations`, `sentenceOpeners` (§5j, §1) | en, vi | `de` added | user's choice: the owner's own German recordings go through ingest and cut |
+| 2026-11-11 | §4 engine, `_template` voice | `say` / Samantha, `en` | own recording first (§5j); TTS fallback `edge` / `de-DE-ConradNeural`, `de-DE` | user's choice: the AI voice was the channel's biggest weakness |
+| 2026-11-11 | §6 look | kit palette | Bit in a clean 2D world, blue, white, gold (since 2026-11-05); hex values still open, `theme.ts` unchanged | user's choice: the channel's style since 2026-11-05 |
+| 2026-11-11 | §7e captions | optional second-language caption | German only | user's choice: German-speaking audience |
+| 2026-11-11 | §11 hand-off | (none) | German description; Mon + Thu 18:00, Sat bonus, uploaded by hand; series parts in order | user's choice: posting plan |

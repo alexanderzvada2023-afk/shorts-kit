@@ -9,6 +9,14 @@
 
 The palette is the source channel's; pick your own. The red-is-rare rule is **[craft]**.
 
+**This channel's look (Silicon Matrix Stories, since 2026-11-05):** **Bit**, a pixel
+figure, tells the story in a **clean 2D world in blue, white and gold**. Videos made
+before 2026-11-05 are full pixel art and stay that way (a posted video is history).
+The exact blue, white and gold values are not set yet: until they are written into
+`src/shared/theme.ts`, the table below is still the kit's palette, and a scene that
+needs the channel colours must not hard-code its own guesses. Bit is a channel
+character: draw it once in `src/shared/`, never per video.
+
 | Role | Default |
 | --- | --- |
 | Main line, highlight, current caption word | cyan `#2FD8FF` |

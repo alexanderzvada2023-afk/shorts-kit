@@ -50,7 +50,7 @@ const prev = existsSync(voicePath) ? (JSON.parse(readFileSync(voicePath, "utf8")
 
 console.log(`tts ${id}: engine ${engine.name}, voice ${voiceName || "(none)"}, tempo ${tempo}`);
 // §4 default engine per language: a hint only, the engine in narration.json wins
-const DEFAULT_ENGINE: Record<string, string> = {en: "edge", vi: "vieneu"};
+const DEFAULT_ENGINE: Record<string, string> = {en: "edge", de: "edge", vi: "vieneu"};
 const lang = (n.language ?? "").toLowerCase().split("-")[0];
 const suggested = DEFAULT_ENGINE[lang];
 if (suggested && engine.name !== suggested && engine.name !== "elevenlabs") {

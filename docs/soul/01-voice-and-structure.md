@@ -9,10 +9,20 @@
 
 ---
 
-## 1. Voice: "a serious explainer who actually knows" [default]
+## 1. Voice: "someone who knows the story and loves it" [default]
 
-Default voice: sound like a person who **really knows the story** and tells it tight, dry and
-with authority. Write like a short news feature, not like a status update.
+**This channel (Silicon Matrix Stories, set 2026-11-11):** German, for German-speaking
+teenagers and adults who like technology (not a children's channel). Topics: IT and
+tech history, chess, people and AI, and current IT topics. The tone is **positive and
+inspiring, carried by checked facts**: the viewer leaves wanting to know more, not
+alarmed. On screen the story is told by **Bit**, the channel's pixel figure (§6).
+
+Inspiring is not the brochure voice below. The lift comes from what people actually
+did, with the number or the moment that shows it, not from adjectives about it.
+
+Kit default this replaces: sound like a person who **really knows the story** and
+tells it tight, dry and with authority. Still true here: write like a short feature,
+not like a status update.
 
 - **Short clauses, clear subjects, numbers.** Authority comes from specifics the
   viewer could check, not from adjectives they cannot.
@@ -68,7 +78,7 @@ Every flow shares a skeleton:
 
 | Block | Job |
 | --- | --- |
-| Hook (~3–10 s) | A question plus one concrete number or image, inside the first 3 seconds. No greeting. |
+| Hook (~3–10 s) | A question plus one concrete number or image, inside the first 3 seconds. No greeting. On this channel the first sentence is the strongest sentence of the script (below). |
 | Body | The flow's beats (see below). |
 | Payoff | Adds one thing not said yet: a consequence, a reversal, or the answer to the hook's question. |
 | Share | One sentence inviting the viewer to send it on. |
@@ -84,6 +94,36 @@ Every flow shares a skeleton:
 - **The hold is declared, not assumed** (`outroHold` in `narration.json`). The
   viewer needs a beat to hit share. A loader that silently defaulted it to 0 once
   shipped four videos that cut the instant the voice stopped; nothing reported it.
+
+### This channel: the first sentence is the strongest one [default, from this channel's stats]
+
+On 2026-11-03 the channel's videos had 2,196 views and 2.2 hours of watch time: about
+**3.6 seconds per view**, on videos of 40 s and more. The average view ended inside
+the hook, so whatever the script saves for later, most viewers never hear. From
+then on the **first spoken sentence is the strongest sentence of the script**: the
+most surprising number, the moment, or the claim the viewer believes and the video
+will break. No run-up, no context first, no title read aloud. One measurement on
+the first two uploads (Enigma 1 and 2) is a data point, not a law: re-check it once
+more videos are live (`docs/lessons/for-you-distribution.md`).
+
+This does not break §3c: the hook gives the strongest *fact* and still holds back the
+*answer* to the video's question.
+
+### Series: parts with a cliffhanger [default, user's choice]
+
+A story that does not fit 40–55 s (`targetDurationSeconds`) becomes a series ("Teil 1",
+"Teil 2", …) rather than a longer short.
+
+- **Each part is a whole video.** It has its own hook, its own question, and pays that
+  question off. A part that only sets up the next one is a trailer, and a viewer who
+  meets part 2 first must still get something.
+- **The cliffhanger replaces the share line, not the turn.** Last beat: the part's
+  turn, then one sentence that opens the next part's question, then the hold. Still
+  no logo and no "part 2 coming soon" (§1).
+- **Part 2 onward opens with a strong sentence, not a recap.** The minimum context
+  the new viewer needs goes in the second sentence, at most.
+- Each part is its own id, brief and ledger trail (`<topic>-1`, `<topic>-2`, §13);
+  facts are shared through the ledger, never copied between video folders.
 
 ### The flow set: §2 is not one structure [craft]
 
@@ -146,9 +186,11 @@ Density and length are **[measured]** defaults; reading-time minimums are **[cra
 - **About one fact every 2.5 seconds** (`factEverySeconds`). A 70–80 s video needs
   25+ information beats. Graphics that speak by position are grasped instantly.
 - **No frame stands still while the voice is talking** (§12).
-- **Length: 60–90 s is the target** (`targetDurationSeconds`); the platform ceiling
-  is 180 s (`maxDurationSeconds`). Do not cut sentences in half to force 60 s; cut
-  surplus information first.
+- **Length: the target is `targetDurationSeconds`** (this channel: 40–55 s; the kit
+  default was 60–90 s); the platform ceiling is 180 s (`maxDurationSeconds`). Do not
+  cut sentences in half to force the target; cut surplus information first, or split
+  the story into a series (§2). At 40–55 s the one-fact-per-2.5 s rule means roughly
+  16–22 information beats.
 - **What must be READ gets time, and that time is declared as a number.** "One
   fact per 2.5 s" is right for overlays and wrong for things to read: a real
   photo, a before/after pair, a two-point timeline, a table. A security-camera
@@ -194,6 +236,10 @@ source pipeline learned from doing it twice:
 - ⚠️ Those numbers were counted in a language where one word ≈ one syllable. English
   carries the same meaning in fewer words; re-measure for your language before you
   trust `medianWordsPerSentence` and `maxWordsPerSentence`.
+- **This channel (German, 2026-11-11): not re-measured yet.** German packs meaning into
+  long compounds, so it likely needs fewer words per sentence than the defaults
+  expect. Until German Shorts are measured, read the median and short-share warnings
+  as hints, not as instructions to make sentences longer.
 - **Two registers, both valid.** *Teaching over visuals* tolerates long sentences
   (medians 21–33 on long-lived channels). *Talking to one person* (flow N) needs
   short ones (a 424k-view example had a median of 8). Choosing the wrong register is
@@ -206,7 +252,8 @@ to the ear. Without merging, every sentence with a date is flagged.
 
 1. **Sentence too long** (`maxWordsPerSentence`). Split it with a full stop.
 2. **Banned phrases** (`bannedPhrases`). Three families, all measured as the places
-   where channels sound identical:
+   where channels sound identical (the list is German first, from 2026-11-11, plus the
+   English list, because German tech videos borrow "deep dive" and "game changer"):
    - *hype*: "mind-blowing", "fascinating", "you won't believe". An adjective the
      viewer cannot check, placed next to a real number, weakens the number.
    - *essay joints*: "furthermore", "moreover", "that being said". That is an essay

@@ -2,10 +2,10 @@
   "id": "_template",
   "flow": "A",
   "visual": [],
-  "language": "en",
+  "language": "de-DE",
   "voice": {
-    "engine": "say",
-    "voice": "Samantha",
+    "engine": "edge",
+    "voice": "de-DE-ConradNeural",
     "tempo": 1
   },
   "pause": {"line": 0.5, "scene": 0.9},

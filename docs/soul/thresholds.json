@@ -10,9 +10,9 @@
     "why": "hard platform ceiling: a YouTube upload over 3 minutes is not a Short (a 195.5 s video was published as a regular video)"
   },
   "targetDurationSeconds": {
-    "value": [60, 90],
+    "value": [40, 55],
     "rule": "§3",
-    "why": "soft pacing target; past ~90 s the edit starts to drag unless the content earns it"
+    "why": "user's choice (2026-11-11): Silicon Matrix Stories makes 40-55 s shorts; a story that needs more becomes a series with a cliffhanger (§2). Kit default was 60-90 s"
   },
   "outroHoldSeconds": {
     "value": [3, 4],
@@ -191,6 +191,18 @@
   },
   "bannedPhrases": {
     "value": [
+      "tauchen wir ein", "lass uns eintauchen", "lasst uns eintauchen", "wusstest du", "wusstet ihr",
+      "hättest du gedacht", "du wirst es nicht glauben", "ihr werdet es nicht glauben",
+      "ob du es glaubst oder nicht", "glaub es oder nicht", "die wahrheit ist",
+      "die antwort wird dich überraschen", "aber das ist noch nicht alles", "und jetzt kommt's",
+      "jetzt wird es spannend", "jetzt wird's spannend", "faszinierend", "atemberaubend",
+      "spektakulär", "sensationell", "schockierend", "unglaublich", "unfassbar", "gamechanger",
+      "ein zeugnis für", "in einer welt, in der", "stell dir eine welt vor", "schnall dich an",
+      "ohne umschweife", "bleib dran", "bleibt dran", "schauen wir uns an", "schauen wir mal",
+      "finden wir es heraus", "lass uns herausfinden", "verborgenes juwel", "das geheimnis hinter",
+      "am ende des tages", "es ist wichtig zu erwähnen", "es ist erwähnenswert", "zusammenfassend",
+      "abschließend", "darüber hinaus", "des weiteren", "nichtsdestotrotz", "einfach gesagt",
+      "mit anderen worten", "die wissenschaft hat bewiesen", "link in der bio", "klick auf den link",
       "let's dive in", "dive into", "deep dive", "did you know", "you won't believe",
       "believe it or not", "the truth is", "the answer may surprise you", "it turns out",
       "here's the thing", "but that's not all", "what happens next", "journey",
@@ -205,10 +217,10 @@
       "science has proven", "click the link", "link in bio"
     ],
     "rule": "§3b",
-    "why": "hype, essay joints and trailer wrapping: the places where channels sound identical. Large channels use each in 0-4% of videos"
+    "why": "hype, essay joints and trailer wrapping: the places where channels sound identical. Large channels use each in 0-4% of videos (English list measured). German entries added 2026-11-11 for a German channel, unmeasured: the same three families in German. English entries kept because German tech videos borrow them (deep dive, game changer, mind-blowing)"
   },
   "intensifiers": {
-    "value": ["really", "truly", "extremely", "incredibly", "absolutely", "literally", "totally", "not only"],
+    "value": ["wirklich", "echt", "extrem", "absolut", "total", "buchstäblich", "wortwörtlich", "mega", "krass", "wahnsinnig", "nicht nur", "really", "truly", "extremely", "incredibly", "absolutely", "literally", "totally", "not only"],
     "rule": "§3b",
     "why": "an adjective the viewer cannot check, next to a real number, weakens the number"
   },
@@ -219,12 +231,16 @@
   },
   "hookOnlyPhrases": {
     "value": [
+      "hallo", "hey leute", "hi leute", "servus", "moin", "willkommen", "in diesem video",
+      "im heutigen video", "in diesem short", "heute schauen wir", "heute geht es", "heute erzähle ich",
+      "abonnier", "abonniert", "abonnieren", "vergiss nicht", "vergesst nicht", "glocke",
+      "bevor wir anfangen", "bevor wir starten", "die heutige geschichte",
       "hello", "hi everyone", "hey guys", "welcome", "in this video", "in today's video",
       "today we", "subscribe", "don't forget", "hit the bell", "before we start",
       "before we begin", "today's story"
     ],
     "rule": "§3b",
-    "why": "long-lived channels greet and ask to subscribe mid-video; only the first seconds are too expensive for it"
+    "why": "long-lived channels greet and ask to subscribe mid-video; only the first seconds are too expensive for it. On this channel the average view lasted ~3.6 s on 2026-11-03 (§2): the hook is where viewers leave. German entries added 2026-11-11"
   },
   "bannedMarks": {
     "value": [":", "—", "–", " - ", "etc."],
@@ -242,9 +258,9 @@
     "why": "a sentence already over the limit that leans on commas means the writer thought the comma made a pause"
   },
   "pronounOpeners": {
-    "value": ["it", "this", "that", "they", "these", "those", "he", "she"],
+    "value": ["es", "er", "sie", "dies", "damit", "dadurch", "it", "this", "that", "they", "these", "those", "he", "she"],
     "rule": "§3b",
-    "why": "the first sentence of each scene names its subject; mid-scene pronouns are fine"
+    "why": "the first sentence of each scene names its subject; mid-scene pronouns are fine. German list leaves out das/die/der/diese because they open most noun phrases too and would warn on correct scenes"
   },
   "repeatGramSize": {
     "value": 4,
@@ -262,7 +278,7 @@
     "why": "a payoff sharing distinct four-word phrases with 2+ body scenes is recapping. Warn only (it can be a deliberate callback)"
   },
   "sourceOnlyEndings": {
-    "value": ["recalls", "reports", "according to", "says so", "wrote", "told us", "notes"],
+    "value": ["berichtet", "berichtete", "schreibt", "schrieb", "zufolge", "meldet", "meldete", "erinnert sich", "recalls", "reports", "according to", "says so", "wrote", "told us", "notes"],
     "rule": "§3c",
     "why": "a sentence that ends on a reporting verb usually carries nothing but its source; matching the ending is narrower than matching words"
   },
@@ -282,7 +298,7 @@
     "why": "three consecutive sentences opening with the same word are an outline in story costume"
   },
   "universalWords": {
-    "value": ["everyone", "everybody", "nobody", "always", "never", "all of us", "humans are wired", "by nature", "instinct", "science has proven", "it is proven"],
+    "value": ["jeder", "jede", "niemand", "immer", "niemals", "wir alle", "von natur aus", "instinkt", "die wissenschaft hat bewiesen", "es ist bewiesen", "everyone", "everybody", "nobody", "always", "never", "all of us", "humans are wired", "by nature", "instinct", "science has proven", "it is proven"],
     "rule": "§9",
     "why": "a scene resting only on single-study or review evidence may not speak for all of humanity"
   },
@@ -312,7 +328,7 @@
     "why": "platform caption cap; hashtags count toward it"
   },
   "footageFillers": {
-    "value": {"en": ["um", "uh", "uhm", "erm", "er", "hmm", "mm"], "vi": ["ừm", "ừ", "ờ", "ơ", "à", "ạ", "ầy", "hừm", "ưm"]},
+    "value": {"de": ["äh", "ähm", "öhm", "hm", "hmm", "mhm"], "en": ["um", "uh", "uhm", "erm", "er", "hmm", "mm"], "vi": ["ừm", "ừ", "ờ", "ơ", "à", "ạ", "ầy", "hừm", "ưm"]},
     "rule": "§5j",
     "why": "single-word filler sounds `bun run cut` proposes to remove; a phrase filler (\"kiểu là\", \"you know\") is a judgement, cut it by hand"
   },
@@ -342,7 +358,7 @@
     "why": "a join louder than this cuts through a syllable; the same quiet threshold `bun run tts` uses between lines (§4)"
   },
   "footageCtaPhrases": {
-    "value": {"en": ["follow", "subscribe", "like and share", "comment below", "link in bio", "hit the bell"], "vi": ["theo dõi", "đăng ký", "bấm follow", "nhấn follow", "để lại bình luận", "comment bên dưới", "link ở bio", "chia sẻ video"]},
+    "value": {"de": ["abonnieren", "abonniert", "abonnier", "folgt mir", "folg mir", "lasst ein like da", "schreibt es in die kommentare", "link in der bio", "glocke"], "en": ["follow", "subscribe", "like and share", "comment below", "link in bio", "hit the bell"], "vi": ["theo dõi", "đăng ký", "bấm follow", "nhấn follow", "để lại bình luận", "comment bên dưới", "link ở bio", "chia sẻ video"]},
     "rule": "§1",
     "why": "a filmed video that ends on a call to action ends on a logo in words; cut to the turn"
   },
@@ -372,12 +388,12 @@
     "why": "below this many words two clips share too few runs to call one a re-take of the other"
   },
   "whisperHallucinations": {
-    "value": {"vi": ["ghiền mì gõ", "hãy subscribe cho kênh", "đừng quên đăng ký kênh", "cảm ơn các bạn đã theo dõi", "hẹn gặp lại các bạn trong những video tiếp theo"], "en": ["thanks for watching", "thank you for watching", "please subscribe", "subscribe to my channel", "like and subscribe"]},
+    "value": {"de": ["untertitel im auftrag des zdf", "untertitelung des zdf", "untertitel der amara.org-community", "vielen dank fürs zuschauen", "danke fürs zuschauen", "bis zum nächsten mal", "abonniert den kanal"], "vi": ["ghiền mì gõ", "hãy subscribe cho kênh", "đừng quên đăng ký kênh", "cảm ơn các bạn đã theo dõi", "hẹn gặp lại các bạn trong những video tiếp theo"], "en": ["thanks for watching", "thank you for watching", "please subscribe", "subscribe to my channel", "like and subscribe"]},
     "rule": "§5j",
-    "why": "phrases Whisper invents over silence or noise; on the first multi-clip test it wrote 'Hãy subscribe cho kênh Ghiền Mì Gõ' over a clip that never said it. Words in them are marked unsure so the speaker confirms them"
+    "why": "phrases Whisper invents over silence or noise; on the first multi-clip test it wrote 'Hãy subscribe cho kênh Ghiền Mì Gõ' over a clip that never said it. Words in them are marked unsure so the speaker confirms them. German entries (added 2026-11-11) are Whisper's widely reported subtitle-credit inventions, not yet seen on this channel"
   },
   "sentenceOpeners": {
-    "value": {"vi": ["và", "thì", "nhưng", "nhưng mà", "nếu", "tức", "tuy", "còn", "mà", "hoặc", "cũng", "đó", "đây", "vậy", "hãy", "nhớ", "đừng", "sau", "trước", "khi", "bởi", "vì", "nói", "không"], "en": ["and", "but", "so", "then", "if", "because", "now", "this", "that", "so,"]},
+    "value": {"de": ["und", "aber", "also", "dann", "wenn", "weil", "denn", "doch", "jetzt", "deshalb", "trotzdem", "so"], "vi": ["và", "thì", "nhưng", "nhưng mà", "nếu", "tức", "tuy", "còn", "mà", "hoặc", "cũng", "đó", "đây", "vậy", "hãy", "nhớ", "đừng", "sau", "trước", "khi", "bởi", "vì", "nói", "không"], "en": ["and", "but", "so", "then", "if", "because", "now", "this", "that", "so,"]},
     "rule": "§5j",
     "why": "a transcript with no full stops is split into lines at these words when capitalised, even right after a name (\"Sài Gòn Thì …\"); names never are"
   }

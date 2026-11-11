@@ -190,6 +190,8 @@ they chose stays.
 
 - English (`en-*`): **`edge`**. Free, no key, good English voices, word timings from
   the service.
+- German (`de-*`): **`edge`**, voice `de-DE-ConradNeural` (template default since
+  2026-11-11; not yet listened to on this channel). It is the fallback: see below.
 - Vietnamese (`vi`): **`vieneu`**. Free, offline, native Vietnamese voices. Online
   voices misread Vietnamese and Latin names (see the locale profile below).
 - Either language, when quality matters more than cost: `elevenlabs`.
@@ -197,6 +199,13 @@ they chose stays.
 
 `bun run tts` prints a one-line hint (never an error) when `language` and `engine`
 differ from this default.
+
+**This channel: the owner's own voice first** `[default, user's choice 2026-11-11]`.
+The AI voice was judged the channel's biggest weakness. New videos are recorded by the
+owner and go through the recorded-voice path (§5j): `bun run from <file>` or
+`bun run new <id> --flow <X> --voice recorded`, then `bun run ingest <id> <file> --lang de`
+and `bun run cut <id>`. TTS stays for tests and for a video that cannot be recorded.
+Do not mix: one video has one voice, and the series parts of one story share it.
 
 | `engine` | Cost | Notes |
 | --- | --- | --- |

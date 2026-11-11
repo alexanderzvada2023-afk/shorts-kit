@@ -147,6 +147,10 @@ caption says one thing and the voice another.
 
 ## 7e. Second-language caption: secondary, one tier lower, always clean [default]
 
+**This channel: German captions only, no second-language caption** (2026-11-11). The
+main caption follows the German voice; a line's `caption` field stays empty. The
+rules below apply only if that changes.
+
 A line's optional `caption` field holds a translation. Shape: the main caption keeps
 everything; the translation is **a smaller block below**, sentence case, dimmer, **no
 word highlight**. It is a translation to skim, not a second caption competing for
