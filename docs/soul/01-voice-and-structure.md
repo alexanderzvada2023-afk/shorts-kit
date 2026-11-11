@@ -11,7 +11,7 @@
 
 ## 1. Voice: "someone who knows the story and loves it" [default]
 
-**This channel (Silicon Matrix Stories, set 2026-11-11):** German, for German-speaking
+**This channel ([Silicon Matrix Stories](https://youtube.com/@siliconmatrixstories), set 2026-11-11):** German, for German-speaking
 teenagers and adults who like technology (not a children's channel). Topics: IT and
 tech history, chess, people and AI, and current IT topics. The tone is **positive and
 inspiring, carried by checked facts**: the viewer leaves wanting to know more, not
