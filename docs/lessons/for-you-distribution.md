@@ -98,3 +98,20 @@ what this file exists to prevent.
 
 | Date | Posts on account | Share at ~0% For You | New posts in feed? | Note |
 | --- | --- | --- | --- | --- |
+
+## YouTube Shorts: Silicon Matrix Stories
+
+Numbers the owner brought; the agent does not fetch them. Avg s/view = watch time ÷ views.
+
+| Date | Videos live | Views | Watch time | Avg s/view | Subs | Likes | Note |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-03 | 2 (Enigma 1, Enigma 2) | 2,196 (Enigma 1: 1,066 on day one) | 2.2 h | ~3.6 | 0 | 1 | Shown widely, left at once: the feed is not the bottleneck, the first seconds are (§2). Pixel-art style, AI voice. One data point |
+
+Lesson (2026-11-03, one data point): YouTube showed the videos to over two thousand
+people, but the average view lasted about 3.6 seconds, so the next lever is the first
+sentence, not distribution.
+
+To compare the next videos fairly, bring per video: views, average view duration,
+average percentage viewed, and in YouTube Studio the Shorts split "viewed vs. swiped
+away". A view counted when the Short starts playing and a view that stayed are different
+numbers; the split tells them apart.
