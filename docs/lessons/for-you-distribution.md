@@ -107,6 +107,30 @@ Numbers the owner brought; the agent does not fetch them. Avg s/view = watch tim
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-11-03 | 2 (Enigma 1, Enigma 2) | 2,196 (Enigma 1: 1,066 on day one) | 2.2 h | ~3.6 | 0 | 1 | Shown widely, left at once: the feed is not the bottleneck, the first seconds are (§2). Pixel-art style, AI voice. One data point |
 
+Public snapshot of the channel page, 2026-11-12 (views and likes as YouTube shows them
+to anyone; watch time and swipe data are only in Studio, so the owner brings those):
+
+| Posted | Short | Views | Likes | Look |
+| --- | --- | --- | --- | --- |
+| 2026-11-02 | Enigma. Teil 1: Die unknackbare Maschine? | 1,211 | 1 | pixel art |
+| 2026-11-03 | Enigma. Teil 2: Der winzige Fehler | 241 | 0 | pixel art |
+| 2026-11-05 | 330.000 km von der Erde: Dann knallt es. Apollo 13 Teil 1 | 7 | 0 | Bit, 2D |
+| 2026-11-05 | PHP2Shell: Warum Websites plötzlich verschwanden | 9 | 0 | Bit, 2D |
+| 2026-11-07 | Drei Mann im Rettungsboot für zwei. Apollo 13 Teil 2 | 46 | 0 | Bit, 2D |
+| 2026-11-07 | Ein Neustart ohne zweiten Versuch. Apollo 13 Teil 3 | 110 | 1 | Bit, 2D |
+
+What the snapshot shows, without Studio data to explain it:
+
+- **Distribution, not only retention, dropped after 2026-11-03.** The two videos of
+  2026-11-05 reached 7 and 9 views: almost nobody was shown them, so their first
+  seconds were never tested. That is the zero-view pattern above, not "viewers swipe".
+  Check each one's traffic source in Studio (Shorts feed share) before blaming content.
+  Several things changed at once on 2026-11-05 (new look, two posts on one day, an IT
+  security topic), so the snapshot cannot say which one, if any, caused it.
+- **Series parts are found out of order.** Apollo 13 Teil 3 has 16× the views of Teil 1.
+  Most viewers of a later part never saw part 1, which is why each part must stand
+  alone (§2).
+
 Lesson (2026-11-03, one data point): YouTube showed the videos to over two thousand
 people, but the average view lasted about 3.6 seconds, so the next lever is the first
 sentence, not distribution.
