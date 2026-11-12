@@ -9,11 +9,11 @@
   "voice": {
     "engine": "edge",
     "voice": "de-DE-KillianNeural",
-    "tempo": 1.08
+    "tempo": 1
   },
   "pause": {
-    "line": 0.35,
-    "scene": 0.6
+    "line": 0.3,
+    "scene": 0.5
   },
   "outroHold": 3,
   "pronounce": {},
@@ -44,11 +44,7 @@
       "id": "moment",
       "lines": [
         {
-          "text": "Angefangen hat alles Ende neunzehnhundertzweiundneunzig, in einem Denny's in San José.",
-          "fact": "f-0011"
-        },
-        {
-          "text": "Dort beschließen Jensen Huang, Chris Malachowsky und Curtis Priem, eine eigene Firma zu gründen.",
+          "text": "Angefangen hat alles Ende neunzehnhundertzweiundneunzig in einem Denny's in San José, wo Huang mit zwei Mitgründern eine eigene Firma plant.",
           "fact": "f-0011"
         },
         {

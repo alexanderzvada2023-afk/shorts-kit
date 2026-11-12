@@ -190,8 +190,9 @@ they chose stays.
 
 - English (`en-*`): **`edge`**. Free, no key, good English voices, word timings from
   the service.
-- German (`de-*`): **`edge`**, voice `de-DE-ConradNeural` (template default since
-  2026-11-11; not yet listened to on this channel). It is the fallback: see below.
+- German (`de-*`): **`edge`**, voice `de-DE-KillianNeural`, tempo 1.0 (template
+  default since 2026-11-12, chosen by the owner from six samples; first used on
+  nvidia-ohne-huang). It is the fallback when there is no own recording: see below.
 - Vietnamese (`vi`): **`vieneu`**. Free, offline, native Vietnamese voices. Online
   voices misread Vietnamese and Latin names (see the locale profile below).
 - Either language, when quality matters more than cost: `elevenlabs`.

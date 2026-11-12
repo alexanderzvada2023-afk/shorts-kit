@@ -77,7 +77,7 @@ Music bed: none chosen yet.
 
 ## Voice
 
-Edge `de-DE-KillianNeural`, tempo 1.08 (the owner asked for +8 %; set through `tempo`, the only speed knob, §4), pauses 0.35 / 0.6 s. Voice 51.6 s + 3 s hold = 54.6 s.
+Edge `de-DE-KillianNeural`, tempo 1.0 (owner's choice), pauses 0.3 / 0.5 s. To stay under 55 s the two founder lines were merged into one ("wo Huang mit zwei Mitgründern eine eigene Firma plant"). Voice 51.6 s + 3 s hold = 54.6 s.
 Names to listen for: Huang, Malachowsky, Priem, Colette Kress, San José, Denny's.
 Strong words: 0.
 

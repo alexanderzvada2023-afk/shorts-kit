@@ -165,18 +165,19 @@ const Founder: React.FC<{x: number; y: number; palette: Palette; k: number}> = (
   </g>
 );
 
-/** moment: the diner (s03), three founders (s04), the napkin becomes the company (s05). */
+/** moment: the diner, Huang and two co-founders appear on their words (s03), the napkin becomes the company (s04). */
 const Moment: SceneComponent = ({words, palette: p}) => {
   const frame = useCurrentFrame();
-  const fDort = wordFrame(words, "Dort");
+  const fDort = wordFrame(words, "Huang");
   const fApril = wordFrame(words, "April");
   const push = glide(frame, [fDort - 10, fDort + 30], [1, 1.12]);
   const drift = glide(frame, [0, fDort], [-30, -10]);
+  const fTwo = wordFrame(words, "zwei");
   const founders = [
-    {name: "Jensen", x: CX - 170},
-    {name: "Chris", x: CX},
-    {name: "Curtis", x: CX + 170},
-  ].map((f) => ({...f, k: ramp(frame, wordFrame(words, f.name) - 3, 10)}));
+    {name: "huang", x: CX - 170, at: fDort},
+    {name: "two-a", x: CX, at: fTwo},
+    {name: "two-b", x: CX + 170, at: fTwo + 6},
+  ].map((f) => ({...f, k: ramp(frame, f.at - 3, 10)}));
   const card = ramp(frame, fApril - 4, 16);
   const count = Math.round(interpolate(frame, [fApril + 30, fApril + 70], [0, 40000], clamp));
   return (

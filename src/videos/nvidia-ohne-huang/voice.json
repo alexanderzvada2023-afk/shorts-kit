@@ -1,823 +1,790 @@
 {
-  "hash": "ad9c142965a386af",
+  "hash": "85b5f765ba02f2eb",
   "engine": "edge:de-DE-KillianNeural",
-  "duration": 51.628,
+  "duration": 51.61,
   "audio": "audio/nvidia-ohne-huang/voice.mp3",
   "words": [
     {
       "text": "33",
       "start": 0,
-      "end": 0.625,
+      "end": 0.675,
       "line": 0
     },
     {
       "text": "Jahre",
-      "start": 0.637,
-      "end": 0.856,
+      "start": 0.688,
+      "end": 0.925,
       "line": 0
     },
     {
       "text": "lang",
-      "start": 0.868,
-      "end": 1.1,
+      "start": 0.937,
+      "end": 1.188,
       "line": 0
     },
     {
       "text": "hat",
-      "start": 1.111,
-      "end": 1.285,
+      "start": 1.2,
+      "end": 1.388,
       "line": 0
     },
     {
       "text": "Jensen",
-      "start": 1.296,
-      "end": 1.632,
+      "start": 1.4,
+      "end": 1.763,
       "line": 0
     },
     {
       "text": "Huang",
-      "start": 1.644,
-      "end": 1.921,
+      "start": 1.775,
+      "end": 2.075,
       "line": 0
     },
     {
       "text": "NVIDIA",
-      "start": 1.933,
-      "end": 2.28,
+      "start": 2.088,
+      "end": 2.463,
       "line": 0
     },
     {
       "text": "geführt",
-      "start": 2.292,
-      "end": 2.743,
+      "start": 2.475,
+      "end": 2.963,
       "line": 0,
       "brk": "clause"
     },
     {
       "text": "und",
-      "start": 2.951,
-      "end": 3.102,
+      "start": 3.188,
+      "end": 3.35,
       "line": 0
     },
     {
       "text": "am",
-      "start": 3.113,
-      "end": 3.229,
+      "start": 3.363,
+      "end": 3.488,
       "line": 0
     },
     {
       "text": "12",
-      "start": 3.241,
-      "end": 3.657,
+      "start": 3.5,
+      "end": 3.95,
       "line": 0,
       "brk": "sentence"
     },
     {
       "text": "November",
-      "start": 3.669,
-      "end": 4.097,
+      "start": 3.963,
+      "end": 4.425,
       "line": 0
     },
     {
       "text": "war",
-      "start": 4.109,
-      "end": 4.294,
+      "start": 4.438,
+      "end": 4.637,
       "line": 0
     },
     {
       "text": "Schluss",
-      "start": 4.306,
-      "end": 4.699,
+      "start": 4.65,
+      "end": 5.075,
       "line": 0,
       "brk": "clause"
     },
     {
       "text": "mit",
-      "start": 4.85,
-      "end": 5.081,
+      "start": 5.238,
+      "end": 5.488,
       "line": 0
     },
     {
       "text": "sofortiger",
-      "start": 5.093,
-      "end": 5.66,
+      "start": 5.5,
+      "end": 6.113,
       "line": 0
     },
     {
       "text": "Wirkung",
-      "start": 5.671,
-      "end": 6.157,
+      "start": 6.125,
+      "end": 6.65,
       "line": 0,
       "brk": "sentence"
     },
     {
       "text": "Vorbörslich",
-      "start": 6.552,
-      "end": 7.204,
+      "start": 6.99,
+      "end": 7.692,
       "line": 1
     },
     {
       "text": "fiel",
-      "start": 7.261,
-      "end": 7.562,
+      "start": 7.753,
+      "end": 8.078,
       "line": 1
     },
     {
       "text": "die",
-      "start": 7.588,
-      "end": 7.839,
+      "start": 8.106,
+      "end": 8.376,
       "line": 1
     },
     {
       "text": "Aktie",
-      "start": 7.86,
-      "end": 8.211,
+      "start": 8.399,
+      "end": 8.778,
       "line": 1
     },
     {
       "text": "um",
-      "start": 8.242,
-      "end": 8.442,
+      "start": 8.811,
+      "end": 9.027,
       "line": 1
     },
     {
       "text": "mehr",
-      "start": 8.46,
-      "end": 8.761,
+      "start": 9.045,
+      "end": 9.37,
       "line": 1
     },
     {
       "text": "als",
-      "start": 8.787,
-      "end": 9.038,
+      "start": 9.398,
+      "end": 9.668,
       "line": 1
     },
     {
       "text": "11%",
-      "start": 9.059,
-      "end": 9.511,
+      "start": 9.691,
+      "end": 10.178,
       "line": 1,
       "brk": "sentence"
     },
     {
       "text": "Angefangen",
-      "start": 10.15,
-      "end": 10.722,
+      "start": 10.72,
+      "end": 11.338,
       "line": 2
     },
     {
       "text": "hat",
-      "start": 10.733,
-      "end": 10.93,
+      "start": 11.35,
+      "end": 11.575,
       "line": 2
     },
     {
       "text": "alles",
-      "start": 10.942,
-      "end": 11.219,
+      "start": 11.588,
+      "end": 11.888,
       "line": 2
     },
     {
       "text": "Ende",
-      "start": 11.231,
-      "end": 11.462,
+      "start": 11.9,
+      "end": 12.15,
       "line": 2
     },
     {
       "text": "1992",
-      "start": 11.474,
-      "end": 12.909,
-      "line": 2,
-      "brk": "clause"
+      "start": 12.163,
+      "end": 13.688,
+      "line": 2
     },
     {
       "text": "in",
-      "start": 13.106,
-      "end": 13.187,
+      "start": 13.7,
+      "end": 13.85,
       "line": 2
     },
     {
       "text": "einem",
-      "start": 13.199,
-      "end": 13.43,
+      "start": 13.863,
+      "end": 14.1,
       "line": 2
     },
     {
       "text": "Denny's",
-      "start": 13.442,
-      "end": 13.881,
+      "start": 14.113,
+      "end": 14.538,
       "line": 2
     },
     {
       "text": "in",
-      "start": 13.893,
-      "end": 14.043,
+      "start": 14.55,
+      "end": 14.7,
       "line": 2
     },
     {
       "text": "San",
-      "start": 14.055,
-      "end": 14.275,
+      "start": 14.713,
+      "end": 14.95,
       "line": 2
     },
     {
       "text": "José",
-      "start": 14.287,
-      "end": 14.692,
+      "start": 14.963,
+      "end": 15.338,
+      "line": 2,
+      "brk": "clause"
+    },
+    {
+      "text": "wo",
+      "start": 15.575,
+      "end": 15.75,
+      "line": 2
+    },
+    {
+      "text": "Huang",
+      "start": 15.763,
+      "end": 16.025,
+      "line": 2
+    },
+    {
+      "text": "mit",
+      "start": 16.038,
+      "end": 16.238,
+      "line": 2
+    },
+    {
+      "text": "zwei",
+      "start": 16.25,
+      "end": 16.5,
+      "line": 2
+    },
+    {
+      "text": "Mitgründern",
+      "start": 16.513,
+      "end": 17.175,
+      "line": 2
+    },
+    {
+      "text": "eine",
+      "start": 17.188,
+      "end": 17.438,
+      "line": 2
+    },
+    {
+      "text": "eigene",
+      "start": 17.45,
+      "end": 17.788,
+      "line": 2
+    },
+    {
+      "text": "Firma",
+      "start": 17.8,
+      "end": 18.113,
+      "line": 2
+    },
+    {
+      "text": "plant",
+      "start": 18.125,
+      "end": 18.613,
       "line": 2,
       "brk": "sentence"
     },
     {
-      "text": "Dort",
-      "start": 15.123,
-      "end": 15.324,
-      "line": 3
-    },
-    {
-      "text": "beschließen",
-      "start": 15.336,
-      "end": 15.752,
-      "line": 3
-    },
-    {
-      "text": "Jensen",
-      "start": 15.764,
-      "end": 16.111,
-      "line": 3
-    },
-    {
-      "text": "Huang",
-      "start": 16.123,
-      "end": 16.505,
-      "line": 3,
-      "brk": "clause"
-    },
-    {
-      "text": "Chris",
-      "start": 16.655,
-      "end": 16.933,
-      "line": 3
-    },
-    {
-      "text": "Malachowsky",
-      "start": 16.944,
-      "end": 17.662,
-      "line": 3
-    },
-    {
-      "text": "und",
-      "start": 17.674,
-      "end": 17.859,
-      "line": 3
-    },
-    {
-      "text": "Curtis",
-      "start": 17.87,
-      "end": 18.194,
-      "line": 3
-    },
-    {
-      "text": "Priem",
-      "start": 18.206,
-      "end": 18.576,
-      "line": 3,
-      "brk": "clause"
-    },
-    {
-      "text": "eine",
-      "start": 18.761,
-      "end": 18.993,
-      "line": 3
-    },
-    {
-      "text": "eigene",
-      "start": 19.005,
-      "end": 19.317,
-      "line": 3
-    },
-    {
-      "text": "Firma",
-      "start": 19.329,
-      "end": 19.641,
-      "line": 3
-    },
-    {
-      "text": "zu",
-      "start": 19.653,
-      "end": 19.768,
-      "line": 3
-    },
-    {
-      "text": "gründen",
-      "start": 19.78,
-      "end": 20.324,
-      "line": 3,
-      "brk": "sentence"
-    },
-    {
       "text": "Im",
-      "start": 20.715,
-      "end": 20.847,
-      "line": 4
+      "start": 19,
+      "end": 19.143,
+      "line": 3
     },
     {
       "text": "April",
-      "start": 20.858,
-      "end": 21.159,
-      "line": 4
+      "start": 19.155,
+      "end": 19.48,
+      "line": 3
     },
     {
       "text": "1993",
-      "start": 21.171,
-      "end": 22.455,
-      "line": 4
+      "start": 19.493,
+      "end": 20.88,
+      "line": 3
     },
     {
       "text": "ist",
-      "start": 22.467,
-      "end": 22.664,
-      "line": 4
+      "start": 20.893,
+      "end": 21.105,
+      "line": 3
     },
     {
       "text": "NVIDIA",
-      "start": 22.675,
-      "end": 23.046,
-      "line": 4
+      "start": 21.118,
+      "end": 21.518,
+      "line": 3
     },
     {
       "text": "da",
-      "start": 23.057,
-      "end": 23.312,
-      "line": 4,
+      "start": 21.53,
+      "end": 21.805,
+      "line": 3,
       "brk": "clause"
     },
     {
       "text": "mit",
-      "start": 23.428,
-      "end": 23.659,
-      "line": 4
+      "start": 21.93,
+      "end": 22.18,
+      "line": 3
     },
     {
       "text": "40.000",
-      "start": 23.671,
-      "end": 24.377,
-      "line": 4
+      "start": 22.193,
+      "end": 22.955,
+      "line": 3
     },
     {
       "text": "Dollar",
-      "start": 24.388,
-      "end": 24.666,
-      "line": 4
+      "start": 22.968,
+      "end": 23.268,
+      "line": 3
     },
     {
       "text": "auf",
-      "start": 24.678,
-      "end": 24.793,
-      "line": 4
+      "start": 23.28,
+      "end": 23.405,
+      "line": 3
     },
     {
       "text": "dem",
-      "start": 24.805,
-      "end": 24.921,
-      "line": 4
+      "start": 23.418,
+      "end": 23.543,
+      "line": 3
     },
     {
       "text": "Konto",
-      "start": 24.932,
-      "end": 25.384,
-      "line": 4,
+      "start": 23.555,
+      "end": 24.043,
+      "line": 3,
       "brk": "sentence"
     },
     {
       "text": "Warum",
-      "start": 26.035,
-      "end": 26.329,
-      "line": 5
+      "start": 24.59,
+      "end": 24.908,
+      "line": 4
     },
     {
       "text": "Huang",
-      "start": 26.341,
-      "end": 26.595,
-      "line": 5
+      "start": 24.92,
+      "end": 25.195,
+      "line": 4
     },
     {
       "text": "jetzt",
-      "start": 26.607,
-      "end": 26.92,
-      "line": 5
+      "start": 25.208,
+      "end": 25.545,
+      "line": 4
     },
     {
       "text": "geht",
-      "start": 26.931,
-      "end": 27.209,
-      "line": 5,
+      "start": 25.558,
+      "end": 25.858,
+      "line": 4,
       "brk": "clause"
     },
     {
       "text": "steht",
-      "start": 27.336,
-      "end": 27.614,
-      "line": 5
+      "start": 25.995,
+      "end": 26.295,
+      "line": 4
     },
     {
       "text": "in",
-      "start": 27.626,
-      "end": 27.707,
-      "line": 5
+      "start": 26.308,
+      "end": 26.395,
+      "line": 4
     },
     {
       "text": "der",
-      "start": 27.718,
-      "end": 27.834,
-      "line": 5
+      "start": 26.408,
+      "end": 26.533,
+      "line": 4
     },
     {
       "text": "Mitteilung",
-      "start": 27.845,
-      "end": 28.343,
-      "line": 5
+      "start": 26.545,
+      "end": 27.083,
+      "line": 4
     },
     {
       "text": "von",
-      "start": 28.355,
-      "end": 28.609,
-      "line": 5
+      "start": 27.095,
+      "end": 27.37,
+      "line": 4
     },
     {
       "text": "NVIDIA",
-      "start": 28.621,
-      "end": 28.968,
-      "line": 5
+      "start": 27.383,
+      "end": 27.758,
+      "line": 4
     },
     {
       "text": "nicht",
-      "start": 28.98,
-      "end": 29.35,
-      "line": 5,
+      "start": 27.77,
+      "end": 28.17,
+      "line": 4,
       "brk": "sentence"
     },
     {
       "text": "NVIDIA",
-      "start": 30.044,
-      "end": 30.443,
-      "line": 6
+      "start": 28.77,
+      "end": 29.2,
+      "line": 5
     },
     {
       "text": "führt",
-      "start": 30.454,
-      "end": 30.639,
-      "line": 6
+      "start": 29.213,
+      "end": 29.413,
+      "line": 5
     },
     {
       "text": "jetzt",
-      "start": 30.651,
-      "end": 30.94,
-      "line": 6
+      "start": 29.425,
+      "end": 29.738,
+      "line": 5
     },
     {
       "text": "Colette",
-      "start": 30.952,
-      "end": 31.241,
-      "line": 6
+      "start": 29.75,
+      "end": 30.063,
+      "line": 5
     },
     {
       "text": "Kress",
-      "start": 31.253,
-      "end": 31.623,
-      "line": 6,
+      "start": 30.075,
+      "end": 30.475,
+      "line": 5,
       "brk": "clause"
     },
     {
       "text": "eigentlich",
-      "start": 31.774,
-      "end": 32.156,
-      "line": 6
+      "start": 30.638,
+      "end": 31.05,
+      "line": 5
     },
     {
       "text": "die",
-      "start": 32.167,
-      "end": 32.283,
-      "line": 6
+      "start": 31.063,
+      "end": 31.188,
+      "line": 5
     },
     {
       "text": "Finanzchefin",
-      "start": 32.294,
-      "end": 33.093,
-      "line": 6,
+      "start": 31.2,
+      "end": 32.063,
+      "line": 5,
       "brk": "clause"
     },
     {
       "text": "nur",
-      "start": 33.22,
-      "end": 33.417,
-      "line": 6
+      "start": 32.2,
+      "end": 32.413,
+      "line": 5
     },
     {
       "text": "übergangsweise",
-      "start": 33.429,
-      "end": 34.308,
+      "start": 32.425,
+      "end": 33.375,
+      "line": 5,
+      "brk": "sentence"
+    },
+    {
+      "text": "Und",
+      "start": 33.73,
+      "end": 33.873,
+      "line": 6
+    },
+    {
+      "text": "Harvey",
+      "start": 33.885,
+      "end": 34.198,
+      "line": 6
+    },
+    {
+      "text": "Jones",
+      "start": 34.21,
+      "end": 34.598,
+      "line": 6
+    },
+    {
+      "text": "wird",
+      "start": 34.61,
+      "end": 34.773,
+      "line": 6
+    },
+    {
+      "text": "der",
+      "start": 34.785,
+      "end": 34.923,
+      "line": 6
+    },
+    {
+      "text": "erste",
+      "start": 34.935,
+      "end": 35.26,
+      "line": 6
+    },
+    {
+      "text": "Vorsitzende",
+      "start": 35.273,
+      "end": 35.898,
+      "line": 6
+    },
+    {
+      "text": "des",
+      "start": 35.91,
+      "end": 36.098,
+      "line": 6
+    },
+    {
+      "text": "Verwaltungsrats",
+      "start": 36.11,
+      "end": 37.01,
+      "line": 6,
+      "brk": "clause"
+    },
+    {
+      "text": "den",
+      "start": 37.198,
+      "end": 37.485,
+      "line": 6
+    },
+    {
+      "text": "NVIDIA",
+      "start": 37.498,
+      "end": 37.885,
+      "line": 6
+    },
+    {
+      "text": "je",
+      "start": 37.898,
+      "end": 38.06,
+      "line": 6
+    },
+    {
+      "text": "hatte",
+      "start": 38.073,
+      "end": 38.535,
       "line": 6,
       "brk": "sentence"
     },
     {
       "text": "Und",
-      "start": 34.716,
-      "end": 34.848,
-      "line": 7
-    },
-    {
-      "text": "Harvey",
-      "start": 34.859,
-      "end": 35.148,
+      "start": 39.06,
+      "end": 39.203,
       "line": 7
     },
     {
       "text": "Jones",
-      "start": 35.16,
-      "end": 35.519,
+      "start": 39.215,
+      "end": 39.528,
       "line": 7
-    },
-    {
-      "text": "wird",
-      "start": 35.53,
-      "end": 35.681,
-      "line": 7
-    },
-    {
-      "text": "der",
-      "start": 35.692,
-      "end": 35.82,
-      "line": 7
-    },
-    {
-      "text": "erste",
-      "start": 35.831,
-      "end": 36.132,
-      "line": 7
-    },
-    {
-      "text": "Vorsitzende",
-      "start": 36.144,
-      "end": 36.723,
-      "line": 7
-    },
-    {
-      "text": "des",
-      "start": 36.734,
-      "end": 36.908,
-      "line": 7
-    },
-    {
-      "text": "Verwaltungsrats",
-      "start": 36.919,
-      "end": 37.753,
-      "line": 7,
-      "brk": "clause"
-    },
-    {
-      "text": "den",
-      "start": 37.926,
-      "end": 38.192,
-      "line": 7
-    },
-    {
-      "text": "NVIDIA",
-      "start": 38.204,
-      "end": 38.563,
-      "line": 7
-    },
-    {
-      "text": "je",
-      "start": 38.574,
-      "end": 38.725,
-      "line": 7
-    },
-    {
-      "text": "hatte",
-      "start": 38.736,
-      "end": 39.165,
-      "line": 7,
-      "brk": "sentence"
-    },
-    {
-      "text": "Und",
-      "start": 39.784,
-      "end": 39.916,
-      "line": 8
-    },
-    {
-      "text": "Jones",
-      "start": 39.928,
-      "end": 40.217,
-      "line": 8
     },
     {
       "text": "sitzt",
-      "start": 40.228,
-      "end": 40.472,
-      "line": 8
+      "start": 39.54,
+      "end": 39.803,
+      "line": 7
     },
     {
       "text": "dort",
-      "start": 40.483,
-      "end": 40.691,
-      "line": 8
+      "start": 39.815,
+      "end": 40.04,
+      "line": 7
     },
     {
       "text": "schon",
-      "start": 40.703,
-      "end": 40.9,
-      "line": 8
+      "start": 40.053,
+      "end": 40.265,
+      "line": 7
     },
     {
       "text": "seit",
-      "start": 40.911,
-      "end": 41.143,
-      "line": 8
+      "start": 40.278,
+      "end": 40.528,
+      "line": 7
     },
     {
       "text": "1993",
-      "start": 41.154,
-      "end": 42.555,
-      "line": 8,
+      "start": 40.54,
+      "end": 42.053,
+      "line": 7,
       "brk": "sentence"
     },
     {
       "text": "Der",
-      "start": 42.994,
-      "end": 43.077,
-      "line": 9
+      "start": 42.44,
+      "end": 42.53,
+      "line": 8
     },
     {
       "text": "Gründer",
-      "start": 43.089,
-      "end": 43.459,
-      "line": 9
+      "start": 42.543,
+      "end": 42.942,
+      "line": 8
     },
     {
       "text": "vom",
-      "start": 43.471,
-      "end": 43.656,
-      "line": 9
+      "start": 42.955,
+      "end": 43.155,
+      "line": 8
     },
     {
       "text": "Tisch",
-      "start": 43.667,
-      "end": 43.887,
-      "line": 9
+      "start": 43.168,
+      "end": 43.405,
+      "line": 8
     },
     {
       "text": "bei",
-      "start": 43.899,
-      "end": 44.038,
-      "line": 9
+      "start": 43.418,
+      "end": 43.567,
+      "line": 8
     },
     {
       "text": "Denny's",
-      "start": 44.049,
-      "end": 44.408,
-      "line": 9
+      "start": 43.58,
+      "end": 43.968,
+      "line": 8
     },
     {
       "text": "ist",
-      "start": 44.42,
-      "end": 44.616,
-      "line": 9
+      "start": 43.98,
+      "end": 44.192,
+      "line": 8
     },
     {
       "text": "weg",
-      "start": 44.628,
-      "end": 44.871,
-      "line": 9,
+      "start": 44.205,
+      "end": 44.468,
+      "line": 8,
       "brk": "clause"
     },
     {
       "text": "aber",
-      "start": 45.056,
-      "end": 45.299,
-      "line": 9
+      "start": 44.668,
+      "end": 44.93,
+      "line": 8
     },
     {
       "text": "einer",
-      "start": 45.311,
-      "end": 45.542,
-      "line": 9
+      "start": 44.942,
+      "end": 45.192,
+      "line": 8
     },
     {
       "text": "aus",
-      "start": 45.554,
-      "end": 45.681,
-      "line": 9
+      "start": 45.205,
+      "end": 45.343,
+      "line": 8
     },
     {
       "text": "dem",
-      "start": 45.693,
-      "end": 45.878,
-      "line": 9
+      "start": 45.355,
+      "end": 45.555,
+      "line": 8
     },
     {
       "text": "allerersten",
-      "start": 45.89,
-      "end": 46.387,
-      "line": 9
+      "start": 45.567,
+      "end": 46.105,
+      "line": 8
     },
     {
       "text": "Jahr",
-      "start": 46.399,
-      "end": 46.607,
-      "line": 9
+      "start": 46.118,
+      "end": 46.343,
+      "line": 8
     },
     {
       "text": "ist",
-      "start": 46.619,
-      "end": 46.792,
-      "line": 9
+      "start": 46.355,
+      "end": 46.543,
+      "line": 8
     },
     {
       "text": "noch",
-      "start": 46.804,
-      "end": 46.978,
-      "line": 9
+      "start": 46.555,
+      "end": 46.743,
+      "line": 8
     },
     {
       "text": "da",
-      "start": 46.989,
-      "end": 47.279,
-      "line": 9,
+      "start": 46.755,
+      "end": 47.067,
+      "line": 8,
       "brk": "sentence"
     },
     {
       "text": "Am",
-      "start": 47.913,
-      "end": 48.033,
-      "line": 10
+      "start": 47.6,
+      "end": 47.73,
+      "line": 9
     },
     {
       "text": "17",
-      "start": 48.045,
-      "end": 48.508,
-      "line": 10,
+      "start": 47.742,
+      "end": 48.242,
+      "line": 9,
       "brk": "sentence"
     },
     {
       "text": "November",
-      "start": 48.519,
-      "end": 48.982,
-      "line": 10
+      "start": 48.255,
+      "end": 48.755,
+      "line": 9
     },
     {
       "text": "legt",
-      "start": 48.994,
-      "end": 49.26,
-      "line": 10
+      "start": 48.767,
+      "end": 49.055,
+      "line": 9
     },
     {
       "text": "NVIDIA",
-      "start": 49.271,
-      "end": 49.665,
-      "line": 10
+      "start": 49.067,
+      "end": 49.492,
+      "line": 9
     },
     {
       "text": "zum",
-      "start": 49.677,
-      "end": 49.896,
-      "line": 10
+      "start": 49.505,
+      "end": 49.742,
+      "line": 9
     },
     {
       "text": "ersten",
-      "start": 49.908,
-      "end": 50.197,
-      "line": 10
+      "start": 49.755,
+      "end": 50.067,
+      "line": 9
     },
     {
       "text": "Mal",
-      "start": 50.209,
-      "end": 50.406,
-      "line": 10
+      "start": 50.08,
+      "end": 50.293,
+      "line": 9
     },
     {
       "text": "ohne",
-      "start": 50.417,
-      "end": 50.626,
-      "line": 10
+      "start": 50.305,
+      "end": 50.53,
+      "line": 9
     },
     {
       "text": "Huang",
-      "start": 50.637,
-      "end": 50.903,
-      "line": 10
+      "start": 50.543,
+      "end": 50.83,
+      "line": 9
     },
     {
       "text": "Zahlen",
-      "start": 50.915,
-      "end": 51.216,
-      "line": 10
+      "start": 50.842,
+      "end": 51.168,
+      "line": 9
     },
     {
       "text": "vor",
-      "start": 51.227,
-      "end": 51.598,
-      "line": 10,
+      "start": 51.18,
+      "end": 51.58,
+      "line": 9,
       "brk": "sentence"
     }
   ],
@@ -827,109 +794,102 @@
       "index": 0,
       "text": "33 Jahre lang hat Jensen Huang NVIDIA geführt, und am 12. November war Schluss, mit sofortiger Wirkung.",
       "start": 0,
-      "end": 6.202
+      "end": 6.69
     },
     {
       "scene": "hook",
       "index": 1,
       "text": "Vorbörslich fiel die Aktie um mehr als 11%.",
-      "start": 6.552,
-      "end": 9.55
+      "start": 6.99,
+      "end": 10.22
     },
     {
       "scene": "moment",
       "index": 0,
-      "text": "Angefangen hat alles Ende 1992, in einem Denny's in San José.",
-      "start": 10.15,
-      "end": 14.773
+      "text": "Angefangen hat alles Ende 1992 in einem Denny's in San José, wo Huang mit zwei Mitgründern eine eigene Firma plant.",
+      "start": 10.72,
+      "end": 18.7
     },
     {
       "scene": "moment",
       "index": 1,
-      "text": "Dort beschließen Jensen Huang, Chris Malachowsky und Curtis Priem, eine eigene Firma zu gründen.",
-      "start": 15.123,
-      "end": 20.365
-    },
-    {
-      "scene": "moment",
-      "index": 2,
       "text": "Im April 1993 ist NVIDIA da, mit 40.000 Dollar auf dem Konto.",
-      "start": 20.715,
-      "end": 25.435
+      "start": 19,
+      "end": 24.09
     },
     {
       "scene": "turn",
       "index": 0,
       "text": "Warum Huang jetzt geht, steht in der Mitteilung von NVIDIA nicht.",
-      "start": 26.035,
-      "end": 29.444
+      "start": 24.59,
+      "end": 28.27
     },
     {
       "scene": "consequence",
       "index": 0,
       "text": "NVIDIA führt jetzt Colette Kress, eigentlich die Finanzchefin, nur übergangsweise.",
-      "start": 30.044,
-      "end": 34.366
+      "start": 28.77,
+      "end": 33.43
     },
     {
       "scene": "consequence",
       "index": 1,
       "text": "Und Harvey Jones wird der erste Vorsitzende des Verwaltungsrats, den NVIDIA je hatte.",
-      "start": 34.716,
-      "end": 39.184
+      "start": 33.73,
+      "end": 38.56
     },
     {
       "scene": "payoff",
       "index": 0,
       "text": "Und Jones sitzt dort schon seit 1993.",
-      "start": 39.784,
-      "end": 42.644
+      "start": 39.06,
+      "end": 42.14
     },
     {
       "scene": "payoff",
       "index": 1,
       "text": "Der Gründer vom Tisch bei Denny's ist weg, aber einer aus dem allerersten Jahr ist noch da.",
-      "start": 42.994,
-      "end": 47.313
+      "start": 42.44,
+      "end": 47.1
     },
     {
       "scene": "share",
       "index": 0,
       "text": "Am 17. November legt NVIDIA zum ersten Mal ohne Huang Zahlen vor.",
-      "start": 47.913,
-      "end": 51.628
+      "start": 47.6,
+      "end": 51.61
     }
   ],
   "scenes": [
     {
       "id": "hook",
       "start": 0,
-      "end": 9.55
+      "end": 10.22
     },
     {
       "id": "moment",
-      "start": 10.15,
-      "end": 25.435
+      "start": 10.72,
+      "end": 24.09
     },
     {
       "id": "turn",
-      "start": 26.035,
-      "end": 29.444
+      "start": 24.59,
+      "end": 28.27
     },
     {
       "id": "consequence",
-      "start": 30.044,
-      "end": 39.184
+      "start": 28.77,
+      "end": 38.56
     },
     {
       "id": "payoff",
-      "start": 39.784,
-      "end": 47.313
+      "start": 39.06,
+      "end": 47.1
     },
     {
       "id": "share",
-      "start": 47.913,
-      "end": 51.628
+      "start": 47.6,
+      "end": 51.61
     }
   ]
 }

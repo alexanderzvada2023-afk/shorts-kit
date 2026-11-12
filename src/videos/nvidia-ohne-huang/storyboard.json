@@ -33,36 +33,21 @@
     {
       "id": "s03",
       "line": 2,
-      "lineText": "Angefangen hat alles Ende 1992, in einem Denny's in San José.",
+      "lineText": "Angefangen hat alles Ende 1992 in einem Denny's in San José, wo Huang mit zwei Mitgründern eine eigene Firma plant.",
       "anchor": null,
       "size": "WS",
-      "camera": "cut, slow drift right",
-      "onScreen": "night street, a lit diner window with a booth inside; small sign 'Diner · San José', no logos",
+      "camera": "slow drift, then push into the booth window on 'Huang'",
+      "onScreen": "night street, a lit diner window, sign 'Diner · San José', no logos; Huang's figure appears on 'Huang', two co-founders on 'zwei'; a napkin with a chip sketch on the table",
       "text": "Ende 1992",
       "visual": "illustrated-scene",
       "transition": "cut",
       "sfx": null,
-      "notes": "[line changed, was: \"Angefangen hat alles Ende neunzehnhundertzweiundneunzig, in einem Denny's in San José.\"]",
-      "status": "built"
-    },
-    {
-      "id": "s04",
-      "line": 3,
-      "lineText": "Dort beschließen Jensen Huang, Chris Malachowsky und Curtis Priem, eine eigene Firma zu gründen.",
-      "anchor": "Dort",
-      "size": "MS",
-      "camera": "push into the booth window",
-      "onScreen": "three simple founder figures appear one by one on their names; a napkin with a chip sketch on the table",
-      "text": null,
-      "visual": "illustrated-scene",
-      "transition": "continuous",
-      "sfx": null,
-      "notes": "",
+      "notes": "[line changed, was: \"Angefangen hat alles Ende 1992, in einem Denny's in San José.\"] [line changed, was: \"Angefangen hat alles Ende neunzehnhundertzweiundneunzig, in einem Denny's in San José.\"]",
       "status": "built"
     },
     {
       "id": "s05",
-      "line": 4,
+      "line": 3,
       "lineText": "Im April 1993 ist NVIDIA da, mit 40.000 Dollar auf dem Konto.",
       "anchor": "April",
       "size": "CU",
@@ -77,7 +62,7 @@
     },
     {
       "id": "s06",
-      "line": 5,
+      "line": 4,
       "lineText": "Warum Huang jetzt geht, steht in der Mitteilung von NVIDIA nicht.",
       "anchor": null,
       "size": "CU",
@@ -92,7 +77,7 @@
     },
     {
       "id": "s07",
-      "line": 6,
+      "line": 5,
       "lineText": "NVIDIA führt jetzt Colette Kress, eigentlich die Finanzchefin, nur übergangsweise.",
       "anchor": null,
       "size": "WS",
@@ -107,7 +92,7 @@
     },
     {
       "id": "s08",
-      "line": 7,
+      "line": 6,
       "lineText": "Und Harvey Jones wird der erste Vorsitzende des Verwaltungsrats, den NVIDIA je hatte.",
       "anchor": "Harvey",
       "size": "MS",
@@ -122,7 +107,7 @@
     },
     {
       "id": "s09",
-      "line": 8,
+      "line": 7,
       "lineText": "Und Jones sitzt dort schon seit 1993.",
       "anchor": null,
       "size": "WS",
@@ -137,7 +122,7 @@
     },
     {
       "id": "s10",
-      "line": 9,
+      "line": 8,
       "lineText": "Der Gründer vom Tisch bei Denny's ist weg, aber einer aus dem allerersten Jahr ist noch da.",
       "anchor": "Gründer",
       "size": "MS",
@@ -152,7 +137,7 @@
     },
     {
       "id": "s11",
-      "line": 10,
+      "line": 9,
       "lineText": "Am 17. November legt NVIDIA zum ersten Mal ohne Huang Zahlen vor.",
       "anchor": null,
       "size": "CU",
@@ -163,6 +148,23 @@
       "transition": "cut",
       "sfx": null,
       "notes": "[line changed, was: \"Am siebzehnten November legt NVIDIA zum ersten Mal ohne Huang Zahlen vor.\"]",
+      "status": "built"
+    }
+  ],
+  "removed": [
+    {
+      "id": "s04",
+      "line": -1,
+      "lineText": "Dort beschließen Jensen Huang, Chris Malachowsky und Curtis Priem, eine eigene Firma zu gründen.",
+      "anchor": "Dort",
+      "size": "MS",
+      "camera": "push into the booth window",
+      "onScreen": "three simple founder figures appear one by one on their names; a napkin with a chip sketch on the table",
+      "text": null,
+      "visual": "illustrated-scene",
+      "transition": "continuous",
+      "sfx": null,
+      "notes": "",
       "status": "built"
     }
   ]

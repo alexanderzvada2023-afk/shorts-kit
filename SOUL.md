@@ -198,3 +198,4 @@ not been adapted to your channel yet (`sk-pipeline` checks this at step 0).
 | 2026-11-11 | §11 hand-off | (none) | German description; Mon + Thu 18:00, Sat bonus, uploaded by hand; series parts in order | user's choice: posting plan |
 | 2026-11-12 | `truePeakMaxDb` (§8) | -1 dBTP | -1.5 dBTP | nvidia-ohne-huang came out of normalize at -0.9 and failed encode's -1 upload ceiling; the target must sit below the ceiling, as `promoTruePeakMaxDb` already does |
 | 2026-11-12 | §6 palette | kit palette, hex open | `CHANNEL_PALETTE` in `theme.ts`: dark blue #0A192F, white #FFFFFF, gold #D4AF37; Bit drawn once in `src/shared/figures/Bit.tsx` | user's choice |
+| 2026-11-12 | §4 voice, `_template` | edge `de-DE-ConradNeural` | edge `de-DE-KillianNeural`, tempo 1.0 | user's choice after six voice samples |

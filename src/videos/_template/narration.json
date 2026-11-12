@@ -5,14 +5,25 @@
   "language": "de-DE",
   "voice": {
     "engine": "edge",
-    "voice": "de-DE-ConradNeural",
+    "voice": "de-DE-KillianNeural",
     "tempo": 1
   },
-  "pause": {"line": 0.5, "scene": 0.9},
+  "pause": {
+    "line": 0.5,
+    "scene": 0.9
+  },
   "outroHold": 3,
   "pronounce": {},
   "spelling": {},
   "scenes": [
-    {"id": "hook", "lines": [{"text": "TODO write the hook line.", "fact": ""}]}
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "text": "TODO write the hook line.",
+          "fact": ""
+        }
+      ]
+    }
   ]
 }
