@@ -196,3 +196,5 @@ not been adapted to your channel yet (`sk-pipeline` checks this at step 0).
 | 2026-11-11 | §6 look | kit palette | Bit in a clean 2D world, blue, white, gold (since 2026-11-05); hex values still open, `theme.ts` unchanged | user's choice: the channel's style since 2026-11-05 |
 | 2026-11-11 | §7e captions | optional second-language caption | German only | user's choice: German-speaking audience |
 | 2026-11-11 | §11 hand-off | (none) | German description; Mon + Thu 18:00, Sat bonus, uploaded by hand; series parts in order | user's choice: posting plan |
+| 2026-11-12 | `truePeakMaxDb` (§8) | -1 dBTP | -1.5 dBTP | nvidia-ohne-huang came out of normalize at -0.9 and failed encode's -1 upload ceiling; the target must sit below the ceiling, as `promoTruePeakMaxDb` already does |
+| 2026-11-12 | §6 palette | kit palette, hex open | `CHANNEL_PALETTE` in `theme.ts`: dark blue #0A192F, white #FFFFFF, gold #D4AF37; Bit drawn once in `src/shared/figures/Bit.tsx` | user's choice |
