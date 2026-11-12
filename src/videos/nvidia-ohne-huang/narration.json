@@ -1,0 +1,104 @@
+{
+  "id": "nvidia-ohne-huang",
+  "flow": "R",
+  "visual": [
+    "illustrated-scene",
+    "text-as-image"
+  ],
+  "language": "de-DE",
+  "voice": {
+    "engine": "edge",
+    "voice": "de-DE-ConradNeural",
+    "tempo": 1
+  },
+  "pause": {
+    "line": 0.5,
+    "scene": 0.9
+  },
+  "outroHold": 3,
+  "pronounce": {},
+  "spelling": {
+    "Dreiunddreißig Jahre": "33 Jahre",
+    "zwölften November": "12. November",
+    "vierzehn Prozent": "14 %",
+    "neunzehnhundertdreiundneunzig": "1993",
+    "vierzigtausend Dollar": "40.000 Dollar",
+    "siebzehnten November": "17. November"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "text": "Dreiunddreißig Jahre lang hat Jensen Huang NVIDIA geführt, und am zwölften November war Schluss, mit sofortiger Wirkung.",
+          "fact": "f-0005"
+        },
+        {
+          "text": "Die Aktie fiel an diesem Tag zeitweise um bis zu vierzehn Prozent.",
+          "fact": "f-0010"
+        }
+      ]
+    },
+    {
+      "id": "moment",
+      "lines": [
+        {
+          "text": "Angefangen hat alles neunzehnhundertdreiundneunzig in einem Denny's in San José, einem einfachen Schnellrestaurant.",
+          "fact": "f-0011"
+        },
+        {
+          "text": "Dort planen Jensen Huang, Chris Malachowsky und Curtis Priem eine Firma für Grafikchips, mit etwa vierzigtausend Dollar.",
+          "fact": "f-0012"
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "lines": [
+        {
+          "text": "Warum Huang jetzt geht, steht in der Mitteilung von NVIDIA nicht.",
+          "fact": "f-0006"
+        },
+        {
+          "text": "Alles andere sind bisher nur Berichte und Vorwürfe, und die bleiben hier draußen.",
+          "fact": "f-0006"
+        }
+      ]
+    },
+    {
+      "id": "consequence",
+      "lines": [
+        {
+          "text": "NVIDIA führt jetzt Colette Kress, eigentlich die Finanzchefin, nur übergangsweise.",
+          "fact": "f-0007"
+        },
+        {
+          "text": "Und Harvey Jones wird der erste Vorsitzende des Verwaltungsrats, den NVIDIA je hatte.",
+          "fact": "f-0008"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "lines": [
+        {
+          "text": "Harvey Jones sitzt seit neunzehnhundertdreiundneunzig in diesem Gremium.",
+          "fact": "f-0008"
+        },
+        {
+          "text": "Der Gründer vom Tisch bei Denny's ist weg, aber einer aus dem allerersten Jahr ist noch da.",
+          "fact": "f-0011"
+        }
+      ]
+    },
+    {
+      "id": "share",
+      "lines": [
+        {
+          "text": "Am siebzehnten November legt NVIDIA zum ersten Mal ohne Huang an der Spitze seine Zahlen vor.",
+          "fact": "f-0013"
+        }
+      ]
+    }
+  ]
+}

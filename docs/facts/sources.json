@@ -71,5 +71,59 @@
     "attribution": "unknown",
     "accessed": "2026-11-09",
     "note": "bun run beats: 124.293 BPM, first beat 0.153 s, 37% of kick onsets on the grid. Local only, out of git."
+  },
+  {
+    "id": "s-0008",
+    "title": "NVIDIA Announces CEO Transition (press release, 2026-11-12)",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
+    "publisher": "NVIDIA Corporation",
+    "licence": "cited, not copied",
+    "accessed": "2026-11-12",
+    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+  },
+  {
+    "id": "s-0009",
+    "title": "NVIDIA Announces CEO Transition (Form 8-K exhibit)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+    "publisher": "U.S. SEC EDGAR",
+    "licence": "cited, not copied",
+    "accessed": "2026-11-12",
+    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+  },
+  {
+    "id": "s-0010",
+    "title": "Nvidia stock plunges 14 percent following CEO Jensen Huang's resignation",
+    "url": "https://thehill.com/business/6215959-jensen-huang-resigns-nvidia-stock-drops/",
+    "publisher": "The Hill",
+    "licence": "cited, not copied",
+    "accessed": "2026-11-12",
+    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+  },
+  {
+    "id": "s-0011",
+    "title": "Nvidia shares tumble after Jensen Huang resigns as CEO",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-tumble-jensen-huang-174855981.html",
+    "publisher": "Yahoo Finance",
+    "licence": "cited, not copied",
+    "accessed": "2026-11-12",
+    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+  },
+  {
+    "id": "s-0012",
+    "title": "Jensen Huang started his $2 trillion company Nvidia at a Denny's breakfast booth",
+    "url": "https://www.nbcmiami.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3302554",
+    "publisher": "NBC Miami / CNBC",
+    "licence": "cited, not copied",
+    "accessed": "2026-11-12",
+    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+  },
+  {
+    "id": "s-0013",
+    "title": "Nvidia company history (founding, founders)",
+    "url": "https://en.wikipedia.org/wiki/Nvidia",
+    "publisher": "Wikipedia",
+    "licence": "cited, not copied",
+    "accessed": "2026-11-12",
+    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
   }
 ]
