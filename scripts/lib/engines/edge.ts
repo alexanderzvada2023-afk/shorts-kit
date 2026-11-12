@@ -1,4 +1,7 @@
+import {readFileSync} from "node:fs";
 import {join} from "node:path";
+import {p} from "../paths";
+import {must} from "../proc";
 import type {Engine, Timed} from "./types";
 
 /**
@@ -41,6 +44,18 @@ export const edge: Engine = {
   name: "edge",
   defaultVoice: "en-US-AndrewNeural",
   synth: async (lines, voice, work) => {
+    // EDGE_PYTHON=<python with edge-tts installed>: use the Python client, which honours
+    // the egress proxy; the Node client times out behind one (cloud sandboxes).
+    if (process.env.EDGE_PYTHON) {
+      const job = join(work, "edge-job.json");
+      const proxy = process.env.HTTPS_PROXY ?? process.env.https_proxy ?? "";
+      await Bun.write(job, JSON.stringify({lines: lines.map((l) => l.spoken), voice: voice.voice ?? edge.defaultVoice, out: work, proxy}));
+      await must(process.env.EDGE_PYTHON, [p("scripts/lib/engines/edge_bridge.py"), job], {timeoutMs: 10 * 60_000, inherit: true});
+      return lines.map((_, i) => ({
+        file: join(work, `line-${i}.mp3`),
+        lines: [{start: 0, end: Number.POSITIVE_INFINITY, words: JSON.parse(readFileSync(join(work, `line-${i}.json`), "utf8")) as Timed[]}],
+      }));
+    }
     const out = [];
     for (const [i, l] of lines.entries()) {
       let last: unknown;

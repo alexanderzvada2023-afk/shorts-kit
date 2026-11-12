@@ -45,8 +45,11 @@ if (existsSync(voicePath) && existsSync(join(videoDir(id), "narration.json"))) {
   }
 }
 
+// REMOTION_BROWSER=<chrome-headless-shell path>: use a preinstalled browser where
+// Remotion cannot download its own (offline or proxied sandboxes).
+const browser = process.env.REMOTION_BROWSER ? [`--browser-executable=${process.env.REMOTION_BROWSER}`] : [];
 const remotion = async (args: string[], timeoutMs: number) => {
-  const r = await run(bin, args, {inherit: true, timeoutMs});
+  const r = await run(bin, [...args, ...browser], {inherit: true, timeoutMs});
   if (r.timedOut) die(`remotion ${args[0]} timed out after ${timeoutMs / MIN} min`);
   if (r.code !== 0) die(`remotion ${args[0]} exited ${r.code}`);
 };

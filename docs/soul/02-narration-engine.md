@@ -215,6 +215,12 @@ Do not mix: one video has one voice, and the series parts of one story share it.
 
 API keys live only in `.env` (gitignored). An agent should not read `.env`.
 
+**Behind an egress proxy (cloud sandboxes)** the Node Edge client times out. Set
+`EDGE_PYTHON` to a Python that has `pip install edge-tts`; the `edge` engine then runs
+`scripts/lib/engines/edge_bridge.py`, which goes through `HTTPS_PROXY` and returns the
+same voices with word timings. Rendering there needs `REMOTION_BROWSER` pointing at a
+preinstalled chrome-headless-shell, because Remotion cannot download its own.
+
 ### Locale profile example: Vietnamese
 
 Kept as an example of what a locale profile looks like, not as a rule of the kit.

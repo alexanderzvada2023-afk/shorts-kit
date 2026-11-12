@@ -1,11 +1,11 @@
 # public/fonts
 
-Empty on purpose. The kit loads **Inter** (SIL Open Font License 1.1) through
-`@remotion/google-fonts` in `src/shared/font.ts`, so no font file is committed.
+| File | Font | Licence | From |
+| --- | --- | --- | --- |
+| `inter-latin-wght-normal.woff2`, `inter-latin-ext-wght-normal.woff2` | Inter, variable weight 100–900 | SIL Open Font License 1.1 (`Inter-OFL.txt`) | npm `@fontsource-variable/inter` 5.2.5 |
 
-To use another font, put the file here, load it in `src/shared/font.ts` with
-`@font-face` + `staticFile("fonts/<file>")`, and change `FONT.sans` in
-`src/shared/theme.ts`. Check its licence first: a system font licensed "for use
-on this platform" (for example Apple's SF Pro) is not licensed for rendering on
-another machine or for redistribution. Record the font and its licence in the
-video's credits (§11b) if the licence asks for attribution.
+Loaded by `src/shared/font.ts` with `@font-face` + `staticFile`, so renders need no
+network (§6b). To use another font, put the file here, load it there, change
+`FONT.sans` in `src/shared/theme.ts`, and record it and its licence in this table.
+A system font licensed "for use on this platform" (e.g. Apple's SF Pro) may not be
+redistributed or rendered elsewhere.
