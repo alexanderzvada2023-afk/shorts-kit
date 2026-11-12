@@ -79,7 +79,7 @@
     "publisher": "NVIDIA Corporation",
     "licence": "cited, not copied",
     "accessed": "2026-11-12",
-    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+    "note": "not opened: page returned 403/redirect on 2026-11-12; no fact rests on it"
   },
   {
     "id": "s-0009",
@@ -87,8 +87,7 @@
     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm",
     "publisher": "U.S. SEC EDGAR",
     "licence": "cited, not copied",
-    "accessed": "2026-11-12",
-    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+    "accessed": "2026-11-12"
   },
   {
     "id": "s-0010",
@@ -97,7 +96,7 @@
     "publisher": "The Hill",
     "licence": "cited, not copied",
     "accessed": "2026-11-12",
-    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+    "note": "not opened: page returned 403/redirect on 2026-11-12; no fact rests on it"
   },
   {
     "id": "s-0011",
@@ -105,8 +104,7 @@
     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-tumble-jensen-huang-174855981.html",
     "publisher": "Yahoo Finance",
     "licence": "cited, not copied",
-    "accessed": "2026-11-12",
-    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+    "accessed": "2026-11-12"
   },
   {
     "id": "s-0012",
@@ -115,7 +113,7 @@
     "publisher": "NBC Miami / CNBC",
     "licence": "cited, not copied",
     "accessed": "2026-11-12",
-    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+    "note": "not opened: page returned 403/redirect on 2026-11-12; no fact rests on it"
   },
   {
     "id": "s-0013",
@@ -123,7 +121,14 @@
     "url": "https://en.wikipedia.org/wiki/Nvidia",
     "publisher": "Wikipedia",
     "licence": "cited, not copied",
-    "accessed": "2026-11-12",
-    "note": "found via web search 2026-11-12; page NOT opened yet (host blocked in the cloud session). Open it before marking any fact verified"
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "s-0014",
+    "title": "NVIDIA 2026 Proxy Statement (DEF 14A), board nominees table",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+    "publisher": "NVIDIA Corporation via SEC EDGAR",
+    "licence": "cited, not copied",
+    "accessed": "2026-11-12"
   }
 ]

@@ -20,7 +20,8 @@
   "spelling": {
     "Dreiunddreißig Jahre": "33 Jahre",
     "zwölften November": "12. November",
-    "vierzehn Prozent": "14 %",
+    "elf Prozent": "11 %",
+    "neunzehnhundertzweiundneunzig": "1992",
     "neunzehnhundertdreiundneunzig": "1993",
     "vierzigtausend Dollar": "40.000 Dollar",
     "siebzehnten November": "17. November"
@@ -34,7 +35,7 @@
           "fact": "f-0005"
         },
         {
-          "text": "Die Aktie fiel an diesem Tag zeitweise um bis zu vierzehn Prozent.",
+          "text": "Vor Börsenbeginn fiel die Aktie an diesem Tag um mehr als elf Prozent.",
           "fact": "f-0010"
         }
       ]
@@ -43,11 +44,15 @@
       "id": "moment",
       "lines": [
         {
-          "text": "Angefangen hat alles neunzehnhundertdreiundneunzig in einem Denny's in San José, einem einfachen Schnellrestaurant.",
+          "text": "Angefangen hat alles Ende neunzehnhundertzweiundneunzig in einem Denny's in San José, einem einfachen Schnellrestaurant.",
           "fact": "f-0011"
         },
         {
-          "text": "Dort planen Jensen Huang, Chris Malachowsky und Curtis Priem eine Firma für Grafikchips, mit etwa vierzigtausend Dollar.",
+          "text": "Dort beschließen Jensen Huang, Chris Malachowsky und Curtis Priem, eine eigene Firma zu gründen.",
+          "fact": "f-0011"
+        },
+        {
+          "text": "Im April neunzehnhundertdreiundneunzig ist NVIDIA da, mit vierzigtausend Dollar auf dem Konto.",
           "fact": "f-0012"
         }
       ]
@@ -87,7 +92,7 @@
         },
         {
           "text": "Der Gründer vom Tisch bei Denny's ist weg, aber einer aus dem allerersten Jahr ist noch da.",
-          "fact": "f-0011"
+          "fact": "f-0008"
         }
       ]
     },

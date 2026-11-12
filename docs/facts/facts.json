@@ -77,9 +77,8 @@
     "id": "f-0005",
     "claim": "On 2026-11-12 NVIDIA's board announced that Jensen Huang resigned as President, Chief Executive Officer and member of the Board, effective immediately",
     "value": "2026-11-12",
-    "status": "unverified",
+    "status": "verified",
     "sources": [
-      "s-0008",
       "s-0009"
     ],
     "checkedAt": "2026-11-12",
@@ -97,12 +96,12 @@
     "id": "f-0006",
     "claim": "NVIDIA's announcement gives no reason for Huang's resignation; reasons circulate only in media reports (alleged relationships, alleged espionage link), which NVIDIA has not confirmed",
     "value": "no reason given",
-    "status": "unverified",
+    "status": "verified",
     "sources": [
-      "s-0008"
+      "s-0009"
     ],
     "checkedAt": "2026-11-12",
-    "caveat": "Never state the media allegations as fact; Huang denied the espionage allegation per press reports",
+    "caveat": "The release gives no reason. Media allegations (relationships, espionage link) are unconfirmed and never stated in the video",
     "asOf": "2026-11-12",
     "usedIn": [
       {
@@ -117,9 +116,9 @@
     "id": "f-0007",
     "claim": "CFO Colette Kress becomes interim CEO and stays CFO until a permanent successor is named; the search covers internal and external candidates",
     "value": "Colette Kress, interim",
-    "status": "unverified",
+    "status": "verified",
     "sources": [
-      "s-0008"
+      "s-0009"
     ],
     "checkedAt": "2026-11-12",
     "asOf": "2026-11-12",
@@ -134,11 +133,12 @@
   },
   {
     "id": "f-0008",
-    "claim": "Harvey C. Jones is appointed NVIDIA's first-ever Chair of the Board; he has been a director since 1993",
+    "claim": "Harvey C. Jones is appointed NVIDIA's first-ever Chair of the Board (release); the 2026 proxy lists him as a director since 1993",
     "value": "first-ever chair; director since 1993",
-    "status": "unverified",
+    "status": "verified",
     "sources": [
-      "s-0008"
+      "s-0009",
+      "s-0014"
     ],
     "checkedAt": "2026-11-12",
     "asOf": "2026-11-12",
@@ -156,9 +156,9 @@
     "id": "f-0009",
     "claim": "Kress's statement in the release refers to the foundation Huang created over the last 33 years",
     "value": "33 years",
-    "status": "unverified",
+    "status": "verified",
     "sources": [
-      "s-0008"
+      "s-0009"
     ],
     "checkedAt": "2026-11-12",
     "spokenAs": "dreiunddreißig Jahre",
@@ -173,16 +173,15 @@
   },
   {
     "id": "f-0010",
-    "claim": "On 2026-11-12 NVIDIA shares fell as much as 14 percent intraday after the announcement, then pared losses",
-    "value": "up to 14 % intraday",
-    "status": "unverified",
+    "claim": "On 2026-11-12 NVIDIA shares dropped more than 11% in pre-market trading and were down 5% by early afternoon",
+    "value": "more than 11 % pre-market; -5 % early afternoon",
+    "status": "verified",
     "sources": [
-      "s-0010",
       "s-0011"
     ],
     "checkedAt": "2026-11-12",
-    "caveat": "Intraday low, not the close; reports give 4-14 % depending on the time of day. Say 'zeitweise bis zu'",
-    "mustPreempt": "other outlets report 4-7 % at later times of the day",
+    "caveat": "Pre-market move, not the close. Say 'vor Börsenbeginn'",
+    "mustPreempt": "other reports give up to 14 % intraday or 4-7 % later in the day",
     "usedIn": [
       {
         "video": "nvidia-ohne-huang",
@@ -194,15 +193,14 @@
   },
   {
     "id": "f-0011",
-    "claim": "NVIDIA was founded in 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem as a graphics-chip company, planned at a Denny's restaurant in San Jose",
-    "value": "1993; three founders; Denny's San Jose",
-    "status": "unverified",
+    "claim": "NVIDIA's three co-founders, Jensen Huang, Chris Malachowsky and Curtis Priem, agreed to start the company at a Denny's diner in San Jose in late 1992; NVIDIA was founded on 5 April 1993",
+    "value": "Denny's late 1992; founded 1993-04-05",
+    "status": "verified",
     "sources": [
-      "s-0012",
       "s-0013"
     ],
     "checkedAt": "2026-11-12",
-    "caveat": "Month of the Denny's meeting differs between sources; do not say a month",
+    "caveat": "Several popular articles wrongly put the Denny's meeting in 1993. Tier 2 (Wikipedia)",
     "usedIn": [
       {
         "video": "nvidia-ohne-huang",
@@ -215,15 +213,14 @@
   },
   {
     "id": "f-0012",
-    "claim": "The founders started NVIDIA with about 40,000 US dollars",
-    "value": "about $40,000",
-    "status": "unverified",
+    "claim": "NVIDIA was born with 40,000 US dollars in the bank",
+    "value": "$40,000",
+    "status": "verified",
     "sources": [
-      "s-0012",
       "s-0013"
     ],
     "checkedAt": "2026-11-12",
-    "caveat": "Most sources say personal money; one attributes it to seed funding. Say 'etwa'",
+    "caveat": "Tier 2 (Wikipedia, citing its ref 16)",
     "usedIn": [
       {
         "video": "nvidia-ohne-huang",
@@ -237,12 +234,11 @@
     "id": "f-0013",
     "claim": "NVIDIA reports results for the third quarter of fiscal 2027 on 2026-11-17",
     "value": "2026-11-17",
-    "status": "unverified",
+    "status": "verified",
     "sources": [
-      "s-0008"
+      "s-0009"
     ],
     "checkedAt": "2026-11-12",
-    "caveat": "Date from search summaries; the source holding it is NVIDIA investor relations, not the CEO release. Confirm on investor.nvidia.com",
     "asOf": "2026-11-12",
     "usedIn": [
       {
