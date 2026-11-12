@@ -77,7 +77,7 @@ Music bed: none chosen yet.
 
 ## Voice
 
-Owner's recording preferred (§4). Fallback: edge `de-DE-ConradNeural`, tempo 1.
+Edge `de-DE-KillianNeural`, tempo 1.08 (the owner asked for +8 %; set through `tempo`, the only speed knob, §4), pauses 0.35 / 0.6 s. Voice 51.6 s + 3 s hold = 54.6 s.
 Names to listen for: Huang, Malachowsky, Priem, Colette Kress, San José, Denny's.
 Strong words: 0.
 

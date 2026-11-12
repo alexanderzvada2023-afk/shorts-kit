@@ -8,19 +8,19 @@
   "language": "de-DE",
   "voice": {
     "engine": "edge",
-    "voice": "de-DE-ConradNeural",
-    "tempo": 1
+    "voice": "de-DE-KillianNeural",
+    "tempo": 1.08
   },
   "pause": {
-    "line": 0.5,
-    "scene": 0.9
+    "line": 0.35,
+    "scene": 0.6
   },
   "outroHold": 3,
   "pronounce": {},
   "spelling": {
     "Dreiunddreißig Jahre": "33 Jahre",
     "zwölften November": "12. November",
-    "elf Prozent": "11 %",
+    "elf Prozent": "11%",
     "neunzehnhundertzweiundneunzig": "1992",
     "neunzehnhundertdreiundneunzig": "1993",
     "vierzigtausend Dollar": "40.000 Dollar",
@@ -35,7 +35,7 @@
           "fact": "f-0005"
         },
         {
-          "text": "Vor Börsenbeginn fiel die Aktie an diesem Tag um mehr als elf Prozent.",
+          "text": "Vorbörslich fiel die Aktie um mehr als elf Prozent.",
           "fact": "f-0010"
         }
       ]
@@ -44,7 +44,7 @@
       "id": "moment",
       "lines": [
         {
-          "text": "Angefangen hat alles Ende neunzehnhundertzweiundneunzig in einem Denny's in San José, einem einfachen Schnellrestaurant.",
+          "text": "Angefangen hat alles Ende neunzehnhundertzweiundneunzig, in einem Denny's in San José.",
           "fact": "f-0011"
         },
         {
@@ -62,10 +62,6 @@
       "lines": [
         {
           "text": "Warum Huang jetzt geht, steht in der Mitteilung von NVIDIA nicht.",
-          "fact": "f-0006"
-        },
-        {
-          "text": "Alles andere sind bisher nur Berichte und Vorwürfe, und die bleiben hier draußen.",
           "fact": "f-0006"
         }
       ]
@@ -87,7 +83,7 @@
       "id": "payoff",
       "lines": [
         {
-          "text": "Harvey Jones sitzt seit neunzehnhundertdreiundneunzig in diesem Gremium.",
+          "text": "Und Jones sitzt dort schon seit neunzehnhundertdreiundneunzig.",
           "fact": "f-0008"
         },
         {
@@ -100,7 +96,7 @@
       "id": "share",
       "lines": [
         {
-          "text": "Am siebzehnten November legt NVIDIA zum ersten Mal ohne Huang an der Spitze seine Zahlen vor.",
+          "text": "Am siebzehnten November legt NVIDIA zum ersten Mal ohne Huang Zahlen vor.",
           "fact": "f-0013"
         }
       ]
